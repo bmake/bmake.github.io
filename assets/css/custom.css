@@ -1,0 +1,16 @@
+.projects section.box .image img{
+  padding-top:40px;
+  height:130px;
+  width:auto;
+  margin:auto;
+}
+
+footer .contact{
+    color: #999;
+    font-size: 0.9em;
+    line-height: 1em;
+    margin: 2em 0 0 0;
+    padding: 0;
+    text-align: left;
+
+}

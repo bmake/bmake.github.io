@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>bmake | projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png"  href="../images/logo_bmake.png">
+
+    <style>
+    html, body{
+      height:100%;
+      width:100%;
+      margin:0;
+      color: rgba(0, 0, 0, 0.87);
+  		font-family: "Source Sans Pro", sans-serif;
+  		font-size: 14pt;
+    }
+    h1{
+      font-weight:200;
+    }
+
+    .wrapper {
+      width:100%;
+      height:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Aligner-item--top {
+      align-self: flex-start;
+    }
+
+    .Aligner-item--bottom {
+      align-self: flex-end;
+    }
+
+    .projects{
+      width:100%;
+      height:100%;
+      display:flex;
+      text-align:center;
+    }
+
+    .projects a{
+      flex:auto;
+      list-style: none;
+      color:white;
+      text-decoration: none;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .projects a:hover img{
+      opacity: 1;
+    }
+
+    .projects a img{
+      height:300px;
+      opacity: 0.2;
+    }
+
+    .itcat{
+      background:#01579B;
+    }
+    .edugraph{
+      background:#4CAF50;
+
+    }
+
+
+    </style>
+	</head>
+  <body>
+
+    <div class="wrapper">
+      <div class="projects">
+
+        <a href="itcat/src" class="itcat">
+            <div style="align-self: flex-start;"></div>
+            <div class="content">
+              <img src="../images/projects/itcat_logo.png" />
+              <h1>ITCat</h1>
+            </div>
+        </a>
+
+        <a href="edugraph/app" class="edugraph">
+          <div style="align-self: flex-start;"></div>
+          <div class="content">
+            <img src="../images/projects/edugraph_logo.png" />
+            <h1>EduGraph</h1>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+
+
+  </body>
+</html>

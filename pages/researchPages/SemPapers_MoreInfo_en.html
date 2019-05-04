@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>BMaKE | SUSea</title>
+<title>BMaKE | SeminarPapers</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="../../layout/styles/layout.css" type="text/css" />
 <script type="text/javascript" src="../../layout/scripts/jquery.min.js"></script>
@@ -22,12 +22,12 @@ jQuery(function () {
     <p class="fl_left" style="font-size:18px; color:#ffffff; background-color:#c5092a;">BMaKE@
 	<a style="background-color:#c5092a; color:#e2e0e0;" href="https://www.th-brandenburg.de/startseite/" target="_blank">THB</a></p>
 	<p class="fl_right" style="font-size:15px; color:#ffffff; margin-right:30px; margin-bottom:15px; height:20px; width:30px; ">
-	<a href="SUSea_MoreInfo_en.html">EN</a></p>
+	<a href="SemPapers_MoreInfo_en.html">EN</a></p>
 	<p class="fl_right" style="font-size:15px; color:#ffffff; margin-right:20px; margin-bottom:15px; height:20px; width:30px; ">
-	<a href="SUSea_MoreInfo.html">DE</a></p>
+	<a href="SemPapers_MoreInfo.html">DE</a></p>
 	</div>
   <h1>
-<a href="../../index.html">
+<a href="../../index_en.html">
 <img src="../../images/logo_bmake.png" width="100" height="100" alt="" class="center"/><strong>BMaKE</strong>
 </a>
 </h1>
@@ -38,12 +38,12 @@ jQuery(function () {
 <div class="wrapper">
   <div id="topnav">
     <ul class="nav">
-      <li><a href="../../index.html">Homepage</a></li>
-      <li><a href="../team.html">Team</a></li>
-	  <li class="active"><a href="../research.html">Research</a></li>
-      <li><a href="../publications.html">Publications</a></li>
-      <li><a href="../teaching.html">Teaching</a></li>
-	  <li><a href="../theses.html">Theses</a></li>
+      <li><a href="../../index_en.html">Homepage</a></li>
+      <li><a href="../team_en.html">Team</a></li>
+	  <li class="active"><a href="../research_en.html">Research</a></li>
+      <li><a href="../publications_en.html">Publications</a></li>
+      <li><a href="../teaching_en.html">Teaching</a></li>
+	  <li><a href="../theses_en.html">Theses</a></li>
     </ul>
   </div>
 </div>
@@ -53,11 +53,11 @@ jQuery(function () {
     <ul>
       <li class="first">You Are Here</li>
       <li>&#187;</li>
-      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../index_en.html">Home</a></li>
       <li>&#187;</li>
-      <li><a href="../research.html">Research</a></li>
+      <li><a href="../research_en.html">Research</a></li>
       <li>&#187;</li>
-      <li><a href="SUSea_MoreInfo.html">SUSea</a></li>
+      <li><a href="SemPapers_MoreInfo_en.html">Seminar Papers</a></li>
     </ul>
   </div>
 </div>
@@ -69,31 +69,27 @@ jQuery(function () {
 	  <p><a href="javascript:goback()">&laquo; Back to List</a></p>
       <div class="portfolio">
         <div class="fl_left">
-          <h2>SUSea - Semantic University Search</h2>
-          <p><b>Fall:</b></br>
-		  	Die CMS der Hochschule stellen Informationen zu Studieng&auml;ngen, Lehrpersonen und Stundenpl&auml;nen bereit. 
-			Eine Weiterverarbeitung dieser Daten zu semantisch angereicherten Listen sowie zur explorativen Navigation 
-			durch das System ist nicht vorgesehen.
+          <h2>Wiki for Research Group</h2>
+          <p><b>Case:</b></br>
+		  	The achievements of research groups and their team spirit are based on common scientific interests and collective expertise in a 
+			field of research. It is a great challenge to keep an eye on the state of knowledge.
 		  </p>
-		  <p><b>L&ouml;sung:</b></br>
-		  	Daten aus den verschiedenen Informationssystemen einer Organisation werden auf ein geteiltes Schema gemappt. 
-			Dadurch werden verborgene Relationen zug&auml;nglich, Daten st&auml;rker kontextualisiert und verlinkt. 
-			Alle Informationen sind &uuml;ber eine Enterprise Search App abrufbar.
-		  </p>
+		  <p><b>Solution:</b></br>
+		  	The members of the research group document the key data on scientific papers in the field of research in a common semantic Wiki 
+			based on OntoWiki. The knowledge scheme is based on criteria for a qualitative literature analysis.  
+ 		  </p>
           <ul>
-            <li><a href="../../images/SUSea_KnowledgeSchema.png" target="_blank">Wissensschema</a></li>
-            <li><a href="../../images/SUSea_Architecture.png" target="_blank">Architekturmodell</a></li>
-            <li><a href="http://d2rq.org/" target="_blank">eingesetzter Mapping-Server D2RQ</a></li>
+            <li><a href="../../documents/SemPapers_KnowledgeSchema.pdf" target="_blank">Knowledge schema</a></li>
+            <li><a href="../../images/SemPapers_PopulationProcess.png" target="_blank">Semi-automatic population process</a></li>
+            <li><a href="https://github.com/bmake/semiautomatic-KG-population" target="_blank">GitHub reository for population process</a></li>
           </ul>
-          <p><b>Erkenntnisse aus dem Projekt:</b></br>
-		   Mapping-Technologien f&uuml;r die Transformation von relationalen Daten in RDF-Daten lassen sich auch auf in CMS abgelegte Datenbest&aumlnde anwenden.
-		   Allerdings sind die automatischen Mapping-Funktionen nicht anwendbar, da es sich um nicht-normalisierte 
-		   Datenbanken handelt und die relevanten Produktivdaten in wenigen, semantisch nicht aussagekr&auml;ftigen Tabellen geb&uuml;ndelt sind. 
-		   Die Relationen sind durch propriet&auml;re Indizes implementiert.</p>
+          <p><b>Next steps & cooperations:</b></br>
+		  The Wiki is used by the members of the research group BMaKE within the monthly seminars. There is a cooperation with the project 
+		  "Open Research Knowledge Graph" at the TIB of the University of Hannover.</p>
           <p>&nbsp;</p>
           <p>&nbsp;</p>
         </div>
-        <div class="fl_right"><img style="border-radius: 0; width:200px;" src="../../images/SUSea.png" alt="" /></div>
+        <div class="fl_right"><img style="border-radius: 0; width:200px;" src="../../images/SemPapers.png" alt="" /></div>
         <div class="clear"></div>
       </div>
       <!-- ############################# -->
